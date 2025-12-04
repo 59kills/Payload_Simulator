@@ -10,7 +10,7 @@ interface SimulationDisplayProps {
 const SimulationDisplay: React.FC<SimulationDisplayProps> = ({ canvasRef, width, height }) => {
   return (
     <div className="simulation-display" style={{ flex: 2, maxWidth: '100%' }}>
-      <h2>ICBM Simulation</h2>
+      <h2>Payload Simulation</h2>
       <canvas ref={canvasRef} width={width} height={height} style={{ backgroundColor: '#000' }} />
     </div>
   );
