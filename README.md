@@ -13,7 +13,7 @@ https://nodejs.org/
 
 2. **Navigate into the project directory**:
    ```bash
-   cd ICBMSimulator
+   cd Payload_Simulator
    ```
 
 3. **Install dependencies**:
